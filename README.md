@@ -49,3 +49,11 @@ Typescript is statically typed, which means that it checks the types at compile 
 
    ## 5. Type Aliases
    - type (type User = {name: string, age: number, mobileNo: number})
+
+
+<br/>
+
+# Typescript configuration
+- We can configure typescript with tsconfig.json file and get that file using " tsc --init "
+- in this file we can change destination of compiled js file using " outDir ": " ./dist "
+- And using " tsc -w " it reruns a ts file automaticaly when change anythings in file 

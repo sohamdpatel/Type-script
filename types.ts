@@ -19,13 +19,13 @@ let count2: Array<number|string> = [1,2,3,4,5,"6"] // in this we can also use un
 
 let multiTypeArray: (number | string)[] = [1,2,3,4,"Sdp"];
 
-//when we need many types in one array than we use or operater to define type and we can write one or more type using this
+//when we need many types in one array than we use or operater to define type and we can write one or more type using this in a Array
 
 let fullDifTypeArray: string[] | number[] = [1,2,3]
-// when we need full array in one type but its not sure about type it has been all string or all number type
+// when we need full array in one type but its not sure about which type of array it has been all string or all number type
 
 // let fullDifTypeArray: string[] | number[] = ["1","2",3]
-// this will give error because we write both type in array. if we need to decalare array like this than we need to use above's above method
+// this will give error because we write both type in array. if we need to decalare array like this than we need to use Union type declaracen
 
 
 const count3: ReadonlyArray<number> = [5,4,3,2,1];
